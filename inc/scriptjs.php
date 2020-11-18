@@ -49,15 +49,15 @@
 
 				
 				else if ( key == 'edad_4_iniciacion_musical' ) {
-					$('#tabinfo_contenido').append('<span class="glyphicon glyphicon-ok"></span> Iniciación músical (4 años) <br>');
+					$('#tabinfo_contenido').append('<span class="glyphicon glyphicon-ok"></span> Iniciación musical (4 años) <br>');
 				}
 
 				else if ( key == 'edad_5_iniciacion_musical' ) {
-					$('#tabinfo_contenido').append('<span class="glyphicon glyphicon-ok"></span> Iniciación músical (5 años) <br>');
+					$('#tabinfo_contenido').append('<span class="glyphicon glyphicon-ok"></span> Iniciación musical (5 años) <br>');
 				}
 
 				else if ( key == 'edad_6_iniciacion_musical' ) {
-					$('#tabinfo_contenido').append('<span class="glyphicon glyphicon-ok"></span> Iniciación músical (6 años) <br>');
+					$('#tabinfo_contenido').append('<span class="glyphicon glyphicon-ok"></span> Iniciación musical (6 años) <br>');
 				}
 				
 
@@ -314,7 +314,7 @@ $('.selectpicker_instrumentos').on('hidden.bs.select', function (e) {
 
 	
 	$('#form_borrar').on('click',function(e){
-		$('#tabinfo_contenido').html('Haga click sobre una escuela para su información.');
+		$('#tabinfo_contenido').html('Haga clic sobre una escuela para más información.');
 
 		$('.selectpicker_edades').selectpicker('deselectAll');
 		$('.selectpicker_instrumentos').selectpicker('deselectAll');
@@ -345,7 +345,7 @@ $('.selectpicker_instrumentos').on('hidden.bs.select', function (e) {
 	e.preventDefault();
 	sidebar.close('tabhome');
 	map.setView([-34.614279029238546,-58.50138549804687],12);
-	$('#tabinfo_contenido').html('Haga click sobre una escuela para su información.');
+	$('#tabinfo_contenido').html('Haga clic sobre una escuela para más información.');
 
 	if ( ( $('.selectpicker_edades option:selected').length + $('.selectpicker_instrumentos option:selected').length ) < 1 ) 
 	{
