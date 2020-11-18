@@ -78,13 +78,13 @@
 							<option value="instrumentos_trompeta">Trompeta</option>
 							<option value="instrumentos_violin">Violín</option>
 							<option value="instrumentos_violoncello">Violoncello</option>
-							<option value="instrumentos_saxofon">Saxofon</option>
+							<option value="instrumentos_saxofon">Saxofón</option>
 							<option value="instrumentos_teclado">Teclado</option>
 							<option value="grupales_canto_coral">Canto coral</option>
 							<option value="grupales_conjunto_camara">Conjunto de cámara</option>
-							<option value="grupales_danzas_folkloricas">Danzas folkloricas</option>
+							<option value="grupales_danzas_folkloricas">Danzas folklóricas</option>
 							<option value="grupales_expresion_corporal">Expresión corporal</option>
-							<option value="grupales_lenguaje_musical">Lenguaje musica</option>
+							<option value="grupales_lenguaje_musical">Lenguaje musical</option>
 							<option value="grupales_ritmica_musical">Rítmica musical</option>
 							
 							</select>
@@ -116,7 +116,7 @@
 				<div class="padd">
 
 					<p id="tabinfo_contenido" >
-					Haga click sobre una escuela para su información.			
+					Haga clic sobre una escuela para más información.			
 					</p>
 
 				</div>
@@ -137,10 +137,10 @@
 					<p id="tabcontacto_contenido">
 					La idea del presente mapa surgió como iniciativa tras una reunión de padres y docentes de la escuela N°7 de 11 y tiene como objetivo ayudar a los vecinos de la Ciudad a buscar escuelas de música por intrumentos y edades. 
 					<br>
-					Se agradece a la directora de la escuela N°7 de 11, Rosa Chalkho, por disponibilizar el set de datos.
+					Se agradece a la directora de la escuela N°7 de 11, Rosa Chalkho, por suministrarnos el conjunto de datos.
 					</p>
 					<p>
-					Mayor información : <a href="http://www.buenosaires.gob.ar/inscripcion-escolar/escuelas-de-musica" target="_blank">Web escuelas GCBA</a>
+					Mayor información: <a href="http://www.buenosaires.gob.ar/inscripcion-escolar/escuelas-de-musica" target="_blank">Web escuelas GCBA</a>
 					</p>
 					<p>
 					Descargá el dataset <a href="json/escuelas_musica_gcba.geojson" target="_blank">GeoJSON</a>
